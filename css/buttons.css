@@ -1,0 +1,93 @@
+.button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px;
+  color: var(--color-white);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button--icon::after {
+  content: ' ';
+}
+
+.button--icon {
+  background-image: url('../assets/images/icons/go.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.button--primary-dark {
+  background-color: var(--color-primary-dark);
+}
+
+.button--primary-dark:hover {
+  background-color: var(--color-primary);
+}
+
+.button--secondary {
+  background-color: var(--color-secondary);
+}
+
+.button--secondary-dark {
+  background-color: var(--color-secondary-dark);
+}
+
+.button--secondary:hover {
+  background-color: var(--color-secondary-dark);
+}
+
+.button--secondary-dark:hover {
+  background-color: var(--color-secondary);
+}
+
+.button--tertiary {
+  background-color: var(--color-tertiary);
+}
+
+.button--tertiary:hover {
+  background-color: var(--color-tertiary-dark);
+}
+
+.button--tertiary-dark {
+  background-color: var(--color-tertiary-dark);
+}
+
+.button--tertiary-dark:hover {
+  background-color: var(--color-tertiary);
+}
+
+.button--guides {
+  background-color: var(--color-background-grey);
+  color: var(--color-text-blue-dark);
+}
+
+.button--guides:hover {
+  background-color: var(--color-background-grey-medium);
+  color: var(--color-text-blue);
+}
+
+.button--width-85 {
+  float: left;
+  width: 85%;
+  border-radius: 0;
+}
+
+.button--width-15 {
+  width: 15%;
+  border-radius: 0;
+}
+
+.button--questions {
+  flex: 1 2 33%;
+  padding: 3px;
+}

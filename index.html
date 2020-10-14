@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/images/icons/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+  <link rel="stylesheet" href="./css/media/large.css" media="screen and (max-width: 1000px)">
+  <link rel="stylesheet" href="./css/media/medium.css" media="screen and (max-width: 900px)">
+  <link rel="stylesheet" href="./css/media/small.css" media="screen and (max-width: 768px)">
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <title>Portal de oferta educativa SENA Sofia Plus</title>
+</head>
+<body>
+  <div class="social-network">
+    <a href="#" class="social-network__item social-network__item--sena"></a>
+    <a href="#" class="social-network__item social-network__item--fb"></a>
+    <a href="#" class="social-network__item social-network__item--tw"></a>
+    <a href="#" class="social-network__item social-network__item--yt"></a>
+    <a href="#" class="social-network__item social-network__item--ig"></a>
+  </div>
+  <div class="container">
+    <header class="header">
+      <div class="logos">
+        <img src="./assets/images/logo.png" alt="logo del sena" class="logos__img logos__img--sena"/>
+        <img src="./assets/images/mintrabajo.jpg" alt="logo de mintrabajo" class="logos__img  logos__img--mintrabajo"/>
+        <img src="./assets/images/Boton-Ingles.png" alt="cursos de inglés" class="logos__img logos__img--ingles"/>
+      </div>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__menu-item"><a href="#">Inicio</a></li>
+          <li class="nav__menu-item"><a href="#">Buscar Oferta</a></li>
+          <li class="nav__menu-item"><a href="#">Presentar pruebas de selección</a></li>
+          <li class="nav__menu-item"><a href="#">Certificados</a></li>
+          <li class="nav__menu-item"><a href="#">Ayuda y soporte</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="welcome">
+      <h1 class="welcome__title">Bienvenido a SofiaPlus, el portal de oferta educativa del SENA</h1>
+      <div class="inscriptions">
+        <div class="inscriptions__date">
+          <p>Del 2 al 6 de Octubre de 2020</p>
+        </div>
+        <div class="inscriptions__description">
+          <strong>Inscripciones a programas de formación en modalidad Presencial y a Distancia</strong>
+        </div>
+      </div>
+    </section>
+    <hr/>
+    <section class="careers">
+      <div class="careers__item">
+        <a href="#">
+          <div class="careers__image img1"></div>
+          <h4 class="careers__title">Carreras presenciales</h4>
+        </a>
+      </div>
+      <div class="careers__item">
+        <a href="">
+          <div class="careers__image img2"></div>
+          <h4 class="careers__title">Carreras virtuales</h4>
+        </a>
+      </div>
+      <div class="careers__item">
+        <a href="">
+          <div class="careers__image img3"></div>
+          <h4 class="careers__title">Cursos cortos presenciales</h4>
+        </a>
+      </div>
+      <div class="careers__item">
+        <a href="">
+          <div class="careers__image img4"></div>
+          <h4 class="careers__title">Cursos cortos virtuales</h4>
+        </a>
+      </div>
+      <div class="careers__item">
+        <a href="">
+          <div class="careers__image img5"></div>
+          <h4 class="careers__title">Cursos de inglés</h4>
+        </a>
+      </div>
+    </section>
+    <hr/>
+    <main class="main">
+      <section class="search">
+        <div class="search__container">
+          <form class="search-form">
+            <div class="search-form__section">
+              <h2 class="search-form__title">¿Qué le gustaría estudiar?</h2>
+              <div class="input-container">
+                <div class="list-container">
+                  <span class="list-container__title">Todos los tipos</span>
+                  <ul class="list-container__list">
+                    <li class="list-container__item">
+                      <label>
+                        <input type="checkbox" class="check-input"/>
+                        <span>Todos los tipos</span>
+                      </label>
+                    </li>
+                    <li class="list-container__item">
+                      <label>
+                        <input type="checkbox" class="check-input"/>
+                        <span>Carreras técnicas</span>
+                      </label>
+                    </li>
+                    <li class="list-container__item">
+                      <label>
+                        <input type="checkbox" class="check-input"/>
+                        <span>Cursos cortos</span>
+                      </label>
+                    </li>
+                    <li class="list-container__item">
+                      <label>
+                        <input type="checkbox" class="check-input"/>
+                        <span>Formación virtual</span>
+                      </label>
+                    </li>
+                    <li class="list-container__item">
+                      <label>
+                        <input type="checkbox" class="check-input"/>
+                        <span>Formación empresas</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+                <input type="text" placeholder="Ej: Cocina, Contabilidad" class="text-input text-input--border-radius"/>
+              </div>
+            </div>
+            <div class="search-form__section">
+              <h2 class="search-form__title">¿En donde le gustaría estudiar?</h2>
+              <input type="text" placeholder="Ej: Cali, Cartagena" class="text-input"/>
+            </div>
+            <div class="search-form__section search-form__section--no-margin">
+              <ul class="list-options">
+                <li class="list-options__item">
+                  <label>
+                    <input type="checkbox" checked="checked" class="check-input"/>
+                    <span>Todos los programas</span>
+                  </label>
+                </li>
+                <li class="list-options__item">
+                  <label>
+                    <input type="checkbox" class="check-input"/>
+                    <span>Solo programas con oferta de formación disponible</span>
+                  </label>
+                </li>
+              </ul>
+              <button type="button" class="button button--primary">
+                <span class="button__text">Buscar</span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="help">
+          <button type="button" class="button button--secondary">¿Necesita una busqueda mas sencilla?</button>
+          <button type="button" class="button button--secondary-dark button--icon"></button>
+        </div>
+      </section>
+      <section class="login-options">
+        <div class="login-options__container">
+          <div class="register">
+            <form>
+              <div class="register__content">
+                <div class="register__image"></div>
+                <p class="register__description">
+                  <strong>Regístrese</strong> para inscribirse a los programas de formación
+                </p>
+              </div>
+              <div class="register__button-container">
+                <button type="button" class="button button--primary button--width-85">Registrarse</button>
+                <button type="button" class="button button--primary-dark button--icon button--width-15"></button>
+              </div>
+            </form>
+          </div>
+          <div class="login">
+            <form>
+              <div class="login__content">
+                <div class="login__image"></div>
+                <p class="login__description">
+                  <strong>Ingrese</strong> para acceder al sistema si ya está registrado
+                </p>
+              </div>
+              <div class="login__button-container">
+                <button type="button" class="button button--primary button--width-85">Ingresar</button>
+                <button type="button" class="button button--primary-dark button--icon button--width-15"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="help">
+          <button type="button" class="button button--secondary button--width-85">¿Olvidó su contraseña?</button>
+          <button type="button" class="button button--secondary-dark  button--icon button--width-15"></button>
+        </div>
+      </section>
+      <section class="slides">
+        <div class="slides__container">
+          <div class="slides__content">
+            <h3 class="slides__title">Notificaciones a través del correo electrónico</h3>
+            <p class="slides__text">Con el fin de optimizar los procesos transaccionales y al mismo tiempo minimizar los riesgos de fraude, los usuarios recibirán al correo electrónico ingresado al momento del Registro, mensajes emitidos por el Aplicativo SOFIA Plus en los siguientes casos</p>
+          </div>
+          <div class="prev"><</div>
+          <div class="next">></div>
+        </div>
+        <div class="help help--no-margin help--border-radius">
+          <button type="button" class="button button--tertiary button--width-85">Ver todas las novedades</button>
+          <button type="button" class="button button--tertiary-dark  button--icon button--width-15"></button>
+        </div>
+      </section>
+      <section class="tweets">
+        <div class="tweets__container">
+          <a class="twitter-timeline" href="https://twitter.com/SENAComunica?ref_src=twsrc%5Etfw">Tweets by SENAComunica</a>
+        </div>
+      </section>
+      <section class="guides">
+        <div class="guides__container">
+          <div class="guides__item">
+            <span class="button--secondary-dark button--icon button--width-15"></span>
+            <span class="button--guides  button--width-85">Verfique si está incrito en un programa de formación</span>
+          </div>
+          <div class="guides__item">
+            <span class="button--secondary-dark button--icon  button--width-15"></span>
+            <span class="button--guides  button--width-85">Fechas importantes</span>
+          </div>
+          <div class="guides__item">
+            <span class="button--secondary-dark button--icon  button--width-15"></span>
+            <span class="button--guides  button--width-85">Guía de inscripción</span>
+          </div>
+          <div class="guides__item">
+            <span class="button--secondary-dark button--icon  button--width-15"></span>
+            <span class="button--guides  button--width-85">Apoyos de sostenimiento</span>
+          </div>
+        </div>
+      </section>
+      <div class="questions">
+        <div class="questions__container">
+          <h2 class="questions__title">¿Necesita más información o tiene preguntas sobre estudiar en el SENA?</h2>
+          <button type="button" class="button button--primary button--questions">Resuelva sus dudas aquí</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="more-information">
+        <b class="more-information__title">¿Necesita mas información?</b>
+        <div class="more-informacion__contact">
+          <figure class="container-image">
+            <img src="./assets/images/icons/call.png" alt="Telephone icon" class="container-image__image"/>
+          </figure>
+          <div class="container-numbers">
+            <p class="container-numbers__number">Bogotá <b>3430111</b></p>
+            <p class="container-numbers__number">Resto del país <b>018000910270</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="schedule">
+        <p class="schedule__time">
+          <b>Horario de atención: </b>
+          Lunes a Viernes 7:00 am a 7:00 pm -Sábados 8:00 am a 1:00 pm
+        </p>
+        <p class="schedule__copyright">
+          Todos los derechos reservados - 2006 / 2014
+        </p>
+      </div>
+    </footer>
+  </div>
+  <div class="author">
+    <p class="author__name">
+      Made with 💚 Daniel Molina.
+      SENA-SOFIA-CLONE 2020.
+    </p>
+  </div>
+</body>
+</html>

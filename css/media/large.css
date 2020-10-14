@@ -1,0 +1,26 @@
+.welcome,
+.careers,
+.main {
+  width: 95%;
+}
+
+.logos {
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.logos__img {
+  width: 300px;
+}
+
+.logos__img--ingles {
+  width: 260px;
+}
+
+.questions__container {
+  padding: 15px 30px;
+}
+
+.footer {
+  display: none;
+}

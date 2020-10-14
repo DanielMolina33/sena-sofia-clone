@@ -1,0 +1,72 @@
+.button {
+  font-size: .9rem;
+}
+
+.logos {
+  justify-content: center;
+  padding: 20px;
+}
+
+.logos__img--ingles {
+  display: none;
+}
+
+.nav__menu {
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav__menu-item > a {
+  height: 50px;
+}
+
+.careers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.careers__item {
+  width: 120px;
+}
+
+.search-form__title,
+.list-options__item  {
+  font-size: .75rem;
+}
+
+.search-form__section--no-margin > .button {
+  background-image: url('../../assets/images/icons/search.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 35px;
+  align-self: flex-start;
+  flex: 1 1 10%;
+}
+
+.button__text {
+  display: none;
+}
+
+.list-container {
+  padding: 0;
+}
+
+.register__description {
+  font-size: .85rem;
+  padding: 15px;
+}
+
+.slides__title {
+  font-size: 1rem;
+}
+
+.guides__item > span {
+  font-size: .9rem;
+}
+
+.questions__title {
+  text-align: center;
+}

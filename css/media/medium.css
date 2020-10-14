@@ -1,0 +1,56 @@
+.social-network {
+  display: none;
+}
+
+.logos__img--mintrabajo {
+  display: none;
+}
+
+.nav__menu {
+  width: 80%;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inscriptions {
+  width: 100%;
+}
+
+.main {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 350px repeat(4, 300px) auto;
+  grid-template-areas: "search"
+                       "login-options"
+                       "slides"
+                       "tweets"
+                       "guides"
+                       "questions";
+}
+
+.guides__item:nth-child(1) > span {
+  padding: 20px 30px 20px 20px;
+}
+
+.questions__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions__title {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+.button--questions {
+  flex: 1 1 100%;
+  width: 100%;
+}
