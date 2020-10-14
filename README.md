@@ -1,2 +1,2 @@
 # SENA SOFIA CLONE
-This is a clone from sena sofia, a Colombian education platform.
+This is a sena sofia clone, a Colombian education platform.
